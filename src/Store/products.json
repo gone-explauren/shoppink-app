@@ -1,0 +1,107 @@
+[
+	{
+		"category": "crystals",
+		"name": "Amethyst",
+		"description": "A pretty purple rock for all your purple rock needs:)",
+		"price": 10,
+		"inventoryCount": 8
+	},
+	{
+		"category": "crystals",
+		"name": "Rose Quartz",
+		"description": "A pretty pink rock for all your pink rock needs:)",
+		"price": 7,
+		"inventoryCount": 27
+	},
+	{
+		"category": "crystals",
+		"name": "Citrine",
+		"description": "A pretty orange rock for all your orange rock needs:)",
+		"price": 8.50,
+		"inventoryCount": 17
+	},
+	{
+		"category": "potion materials",
+		"name": "Eye of Newt",
+		"description": "High-quality and ethically-sourced eye of newt",
+		"price": 70,
+		"inventoryCount": 17
+	},
+	{
+		"category": "potion materials",
+		"name": "Hair of Dog",
+		"description": "High-quality and ethically-sourced hair of dog",
+		"price": 5,
+		"inventoryCount": 142
+	},
+	{
+		"category": "potion materials",
+		"name": "Slime of Slug",
+		"description": "High-quality and ethically-sourced slime of slug",
+		"price": 6.75,
+		"inventoryCount": 83
+	},
+	{
+		"category": "potion materials",
+		"name": "Stick I Found in the Woods",
+		"description": "High-quality and ethically-sourced stick I found in the woods",
+		"price": 1.50,
+		"inventoryCount": 337
+	},
+	{
+		"category": "candles",
+		"name": "Pink Candle",
+		"description": "A pretty pink candle that burns red flame",
+		"price": 6,
+		"inventoryCount": 4
+	},
+	{
+		"category": "candles",
+		"name": "Black Candle",
+		"description": "Warning: Burning the Black Candle while sacrificing a virgin will awaken the Witches Three",
+		"price": 15,
+		"inventoryCount": 2
+	},
+	{
+		"category": "candles",
+		"name": "Blue Candle",
+		"description": "A pretty blue candle with a red flame",
+		"price": 6,
+		"inventoryCount": 7
+	},
+	{
+		"category": "candles",
+		"name": "Green Candle",
+		"description": "A pretty green candle with a red flame",
+		"price": 6,
+		"inventoryCount": 7
+	},
+	{
+		"category": "grimoires",
+		"name": "Book of Eternal Damnation",
+		"description": "Contains spells for cursing your enemies",
+		"price": 150,
+		"inventoryCount": 17
+	},
+	{
+		"category": "grimoires",
+		"name": "Book of Eternal Happiness",
+		"description": "Contains spells for blissful ignorance",
+		"price": 150,
+		"inventoryCount": 69
+	},
+	{
+		"category": "grimoires",
+		"name": "Book of Everlasting Enigmas",
+		"description": "Contains partial spells otherwise lost to time",
+		"price": 1000,
+		"inventoryCount": 4
+	},
+	{
+		"category": "wands",
+		"name": "Rosewood Wand",
+		"description": "A sturdy, hand-crafted wand made of rosewood",
+		"price": 3,
+		"inventoryCount": 2179
+	}
+]
