@@ -26,8 +26,11 @@ import DeleteButton from './DeleteButton'
 
 function Cart() {
 
-  const cart = useSelector((currentState) => currentState.productReducer.cart);
-  // console.log(cart);
+  const cart = useSelector((currentState) => {
+		console.log(currentState);
+		return currentState.productReducer.products
+	});
+  console.log(cart);
   const [itemCount, setItemCount] = useState(cart.length)
 
   useEffect(() => {
