@@ -3,29 +3,21 @@ const initialState = {
   activeCategory: 'None',
 }
 
-function fillCategories(name){
-  const category = {
-    categoryName: '',
-    displayedName:'',
-    description:'',
-  }
-  category.categoryName=name;
-  category.displayedName=name;
-  category.description=`${name} products`;
-  initialState.categoriesList.push(category)
-}
-
-fillCategories('crystals')
-fillCategories('potion materials')
-fillCategories('candles')
-fillCategories('grimoires')
-fillCategories('wands')
-console.log(initialState.categoriesList)
-
 
 function categoryReducer (state = initialState, action){
   switch(action.type) {
+
+    case 'FETCH_PRODUCTS':
+      let categorySet = new Set();
+      action.payload.results.map(item=> categorySet.add(item.category))
+      // console.log('CATEGORY SET', Array.from(categorySet))
+      // console.log('CategoryList, ',  Array.from(categorySet))
+      return {
+        categoriesList:  Array.from(categorySet)
+      }
+
     case 'SELECT_CATEGORY':
+      // console.log('SELECTED', action.payload)
       return {
         ...state,
         activeCategory: action.payload
